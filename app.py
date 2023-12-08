@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May  8 21:01:15 2022
+Created on Friday Dec  08 21:01:15 2023
 
-@author: siddhardhan
+@author: tariqibrahim
 """
 
 import pickle
@@ -30,7 +30,8 @@ with st.sidebar:
                            'Parkinsons Prediction'],
                           icons=['activity','heart','person'],
                           default_index=0)
-    
+
+    st.title('The site was founded by: Tariq Ibrahim')
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
