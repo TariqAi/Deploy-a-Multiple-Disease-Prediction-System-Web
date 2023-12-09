@@ -35,7 +35,7 @@ with st.sidebar:
     st.markdown("<h4 style='text-align: center; color: red;'> Founded by: Tariq Ibrahim</h4>", unsafe_allow_html=True)
     
 # Diabetes Prediction Page
-if (selected == 'Diabetes Prediction'):
+if (selected == 'Diabetes Disease'):
     
     # page title
     st.title('Diabetes Disease Prediction')
@@ -88,7 +88,7 @@ if (selected == 'Diabetes Prediction'):
 
 
 # Heart Disease Prediction Page
-if (selected == 'Heart Disease Prediction'):
+if (selected == 'Heart Disease'):
     
     # page title
     st.title('Heart Disease Prediction')
@@ -156,7 +156,7 @@ if (selected == 'Heart Disease Prediction'):
     
 
 # Parkinson's Prediction Page
-if (selected == "Parkinsons Prediction"):
+if (selected == "Parkinsons Syndrome"):
     
     # page title
     st.title("Parkinson's Syndrome Prediction")
