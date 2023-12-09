@@ -32,13 +32,13 @@ with st.sidebar:
                           default_index=0)
 
     # Set a title with adjusted size
-    st.markdown("<h4 style='text-align: center; color: red;'>تم التأسيس من قبل طارق ابراهيم</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center; color: red;'> Founded by: Tariq Ibrahim</h4>", unsafe_allow_html=True)
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
     
     # page title
-    st.title('Diabetes Prediction By Tariq Ibrahim')
+    st.title('Diabetes Prediction')
     
     
     # getting the input data from the user
@@ -91,7 +91,7 @@ if (selected == 'Diabetes Prediction'):
 if (selected == 'Heart Disease Prediction'):
     
     # page title
-    st.title('Heart Disease Prediction using ML')
+    st.title('Heart Disease Prediction')
     
     col1, col2, col3 = st.columns(3)
     
@@ -159,7 +159,7 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "Parkinsons Prediction"):
     
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Parkinson's Disease Prediction")
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
