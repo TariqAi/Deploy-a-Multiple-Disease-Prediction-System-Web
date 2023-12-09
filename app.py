@@ -31,7 +31,8 @@ with st.sidebar:
                           icons=['activity','heart','person'],
                           default_index=0)
 
-    st.title('The site was founded by: Tariq Ibrahim')
+    # Set a title with adjusted size
+    st.markdown("<h4 style='text-align: center; color: red;'>تم التأسيس من قبل طارق ابراهيم</h4>", unsafe_allow_html=True)
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
